@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.pet-app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.pet-card {
+  width: 320px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 16px;
+  padding: 24px;
+  text-align: center;
+}
+
+.pet-title {
+  font-size: 24px;
+  margin: 16px ;
+  color: black;
+}
+
+.pet-display {
+  margin-bottom: 20px;
+}
+
+.pet-avatar {
+  font-size: 56px;
+}
+
+.pet-status {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 8px;
+  color: black;
+}
+
+.pet-stats {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.stat-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+}
+
+.stat-value {
+  font-weight: bold;
+  background-color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  flex: 1;
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid #7f7d7d;
+  border-radius: 6px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: white;
+}
