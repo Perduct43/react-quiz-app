@@ -1,0 +1,125 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.card {
+  width: 500px;
+  min-height: 700px;
+  border: 3px solid #4758b8;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.create-character-div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-input {
+  width: 440px;
+  background-color: white;
+  border: 1px solid black;
+  height: 40px;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  box-sizing: border-box;
+}
+
+.selector {
+  width: 440px;
+  background-color: white;
+  border: 1px solid black;
+  height: 50px;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-top: 10px;
+  box-sizing: border-box;
+}
+
+.power-level {
+  margin: 10px 0 5px 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.range {
+  width: 440px;
+  margin: 2px;
+  cursor: pointer;
+}
+
+.create {
+  width: 440px;
+  background-color: #3F51B5;
+  border: none;
+  height: 50px;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-top: 15px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.create:hover {
+  background-color: #303f9f;
+}
+
+.deck {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.deck-card {
+  border: 2px solid #333;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #f9f9f9;
+  text-align: left;
+  width: 440px;
+  box-sizing: border-box;
+}
+
+.deck-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.deck-card-header h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.delete-btn {
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 20px;
+}
+
+.power-text {
+  margin: 8px 0 0 0;
+  font-size: 16px;
+}

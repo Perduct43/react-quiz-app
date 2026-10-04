@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: sans-serif;
+}
+
+.card {
+  width: 340px;
+  padding: 20px;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.happy {
+  background-color: #fff176;
+  color: black;
+}
+.sad {
+  background-color: #90caf9;
+  color: #0d47a1;
+}
+.angry {
+  background-color: #ef9a9a;
+  color: #b71c1c;
+}
+.sleepy {
+  background-color: #CE93D8;
+  color: #4A148C;
+}
+.happy-box {
+  background-color: #fff9c8;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 15px 0;
+}
+.sad-box {
+  background-color: #d3eafd;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 15px 0;
+}
+.angry-box {
+  background-color: #f9d7d7;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 15px 0;
+}
+.sleepy-box {
+  background-color: #e2d4f0;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 15px 0;
+}
+
+.buttons button {
+  margin: 2px;
+  padding: 6px;
+  cursor: pointer;
+}
+
+.input-box {
+  margin-bottom: 15px;
+}
+
+ul {
+  display: inline-block;
+  text-align: left;
+}
+
+li {
+  list-style-type: none;
+}

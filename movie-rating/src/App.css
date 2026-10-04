@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  width: 500px;
+  height: 700px;
+  border: 3px solid #4758b8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 12px;
+  position: relative;
+}
+
+.main-input {
+  width: 440px;
+  background-color: white;
+  border: 1px solid black;
+  height: 40px;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.selector {
+  width: 462px;
+  background-color: white;
+  border: 1px solid black;
+  height: 50px;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.range {
+  width: 450px;
+  margin: 2px;
+}
+
+.power-level {
+  margin: 5px;
+}
+
+.create {
+  width: 462px;
+  background-color: #3F51B5;
+  border: none;
+  height: 50px;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-top: 10px;
+  color: white;
+}
+
+.create-character-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin: 10px;
+  margin-bottom: 20px;
+}
+
+.deck {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.deck-card {
+  border: 2px solid #333;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #f9f9f9;
+  text-align: left;
+  width: 440px;
+}
+
+.deck-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete-btn {
+  cursor: pointer;
+}
+
+.power-text {
+  margin: 5px 0;
+}
